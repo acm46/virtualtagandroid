@@ -2,5 +2,8 @@
 <resources>
     <string name="app_name">ZBar Scanner Demo</string>
     <string name="scan">Scan</string>
+    <string name="tag">Tag</string>
     <string name="scan_only_qr_codes">Scan only QR Codes</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Tag!</string>
 </resources>

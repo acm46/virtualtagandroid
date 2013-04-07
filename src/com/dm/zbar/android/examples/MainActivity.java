@@ -21,6 +21,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main);
     }
 
+    public void launchTag(View v) {
+    	Intent intent = new Intent(this, Tag.class);
+    	startActivity(intent);
+    }
+    
     public void launchScanner(View v) {
         if (isCameraAvailable()) {
             Intent intent = new Intent(this, ZBarScannerActivity.class);

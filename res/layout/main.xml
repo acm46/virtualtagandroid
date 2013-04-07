@@ -5,6 +5,14 @@
     android:gravity="center"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+    
+    <Button
+        android:id="@+id/tag_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:onClick="launchTag"
+        android:text="@string/tag" />
+    
     <Button
         android:id="@+id/scan_btn"
         android:layout_height="wrap_content"
